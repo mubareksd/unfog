@@ -1,0 +1,91 @@
+{
+    "@@locale": "en",
+    "appTitle": "Unfog",
+    "@appTitle": {
+        "description": "Application title"
+    },
+    "exploreTab": "Explore",
+    "@exploreTab": {
+        "description": "Bottom navigation label for the explore tab"
+    },
+    "settingsTab": "Settings",
+    "@settingsTab": {
+        "description": "Bottom navigation label for the settings tab"
+    },
+    "settingsTitle": "Settings",
+    "@settingsTitle": {
+        "description": "Settings screen title"
+    },
+    "appearanceSection": "Appearance",
+    "@appearanceSection": {
+        "description": "Section header for theme options"
+    },
+    "themeSystem": "System",
+    "@themeSystem": {
+        "description": "Follow system light/dark theme"
+    },
+    "themeLight": "Light",
+    "@themeLight": {
+        "description": "Light theme option"
+    },
+    "themeDark": "Dark",
+    "@themeDark": {
+        "description": "Dark theme option"
+    },
+    "languageSection": "Language",
+    "@languageSection": {
+        "description": "Section header for locale options"
+    },
+    "languageEnglish": "English",
+    "@languageEnglish": {
+        "description": "English language option"
+    },
+    "languageArabic": "Arabic",
+    "@languageArabic": {
+        "description": "Arabic language option"
+    },
+    "languageAmharic": "Amharic",
+    "@languageAmharic": {
+        "description": "Amharic language option"
+    },
+    "languageTigrinya": "Tigrinya",
+    "@languageTigrinya": {
+        "description": "Tigrinya language option"
+    },
+    "locationPermissionMessage": "Location access is needed to track where you've been.",
+    "@locationPermissionMessage": {
+        "description": "Snackbar shown when location permission is denied"
+    },
+    "openSettings": "Open Settings",
+    "@openSettings": {
+        "description": "Snackbar action to open app settings"
+    },
+    "pointNorth": "Point north",
+    "@pointNorth": {
+        "description": "Tooltip for the compass reset button"
+    },
+    "findMe": "Find me",
+    "@findMe": {
+        "description": "Tooltip for the recenter-on-user button"
+    },
+    "switchMapStyle": "Switch map style",
+    "@switchMapStyle": {
+        "description": "Tooltip for the map type picker"
+    },
+    "mapOpenStreetMap": "OpenStreetMap",
+    "@mapOpenStreetMap": {
+        "description": "OpenStreetMap base layer name"
+    },
+    "mapDark": "Dark",
+    "@mapDark": {
+        "description": "Dark map base layer name"
+    },
+    "mapLight": "Light",
+    "@mapLight": {
+        "description": "Light map base layer name"
+    },
+    "mapSatellite": "Satellite",
+    "@mapSatellite": {
+        "description": "Satellite map base layer name"
+    }
+}
