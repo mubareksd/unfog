@@ -39,6 +39,7 @@ enum MapType {
     MapType.cartoDark ||
     MapType.cartoLight => '© OpenStreetMap contributors © CARTO',
     MapType.satellite =>
-      'Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP',
+      'Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, '
+          'Getmapping, Aerogrid, IGN, IGP, UPR-EGP',
   };
 }

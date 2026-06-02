@@ -1,3 +1,6 @@
+// Custom delegates extend package-private Flutter localization bases.
+// ignore_for_file: implementation_imports
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/src/cupertino_localizations.dart';
@@ -36,7 +39,8 @@ class _TiCupertinoLocalizationsDelegate
 class TiCupertinoLocalization extends GlobalCupertinoLocalizations {
   /// Create an instance of the translation bundle for Tigrinya.
   ///
-  /// For details on the meaning of the arguments, see [GlobalCupertinoLocalizations].
+  /// For details on the meaning of the arguments, see
+  /// [GlobalCupertinoLocalizations].
   const TiCupertinoLocalization({
     required super.fullYearFormat,
     required super.dayFormat,

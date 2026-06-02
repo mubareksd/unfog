@@ -1,3 +1,6 @@
+// Custom delegates extend package-private Flutter localization bases.
+// ignore_for_file: implementation_imports
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/src/material_localizations.dart';
@@ -285,7 +288,8 @@ class _TiMaterialLocalizationsDelegate
 class TiMaterialLocalizations extends GlobalMaterialLocalizations {
   /// Create an instance of the translation bundle for Tigrinya.
   ///
-  /// For details on the meaning of the arguments, see [GlobalMaterialLocalizations].
+  /// For details on the meaning of the arguments, see
+  /// [GlobalMaterialLocalizations].
   const TiMaterialLocalizations({
     required super.fullYearFormat,
     required super.compactDateFormat,

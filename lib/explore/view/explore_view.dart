@@ -43,8 +43,9 @@ class _ExploreViewState extends State<ExploreView> {
     }
     if (fgStatus == LocationPermission.denied ||
         fgStatus == LocationPermission.deniedForever) {
-      // Start stream anyway — it will silently fail until user grants permission.
-      _startLocationUpdates();
+      // Start stream anyway — it will silently fail until the user
+      // grants permission.
+      await _startLocationUpdates();
       if (!mounted) return;
       final l10n = context.l10n;
       ScaffoldMessenger.of(context).showSnackBar(
@@ -60,7 +61,7 @@ class _ExploreViewState extends State<ExploreView> {
     }
 
     // Permission granted — start UI location stream now.
-    _startLocationUpdates();
+    await _startLocationUpdates();
 
     if (kIsAndroid) {
       // Request background location (Android 10+) — best effort.
@@ -70,7 +71,8 @@ class _ExploreViewState extends State<ExploreView> {
       // the foreground service notification).
 
       await Permission.notification.request();
-      // Activity recognition drives the step-detector walking gate (Android 10+).
+      // Activity recognition drives the step-detector walking gate
+      // (Android 10+).
       await Permission.activityRecognition.request();
     }
   }
